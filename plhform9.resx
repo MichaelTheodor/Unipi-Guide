@@ -1,0 +1,514 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox6.Text" xml:space="preserve">
+    <value>
+Το Τμήμα Πληροφορικής του Πανεπιστημίου Πειραιώς, οργανώνει και λειτουργεί τέσσερα μεταπτυχιακά προγράμματα σπουδών:
+- ΠΜΣ «Προηγμένα Συστήματα Πληροφορικής - Ανάπτυξη Λογισμικού και Τεχνητής Νοημοσύνης».
+- ΠΜΣ «Ψηφιακός Πολιτισμός, Έξυπνες Πόλεις, IoT και Προηγμένες Ψηφιακές Τεχνολογίες».
+- ΠΜΣ «Κατανεμημένα Συστήματα, Ασφάλεια και Αναδυόμενες Τεχνολογίες Πληροφορίας».
+- ΠΜΣ «Πληροφορική».
+
+Το Πρόγραμμα Μεταπτυχιακών Σπουδών «Προηγμένα Συστήματα Πληροφορικής - Ανάπτυξη Λογισμικού και Τεχνητής Νοημοσύνης» (Advanced Informatics and Computing Systems - Software Development and Αrtificial Intelligence) έχει ως αντικείμενο τη συντονισμένη ανάπτυξη και οργάνωση των ερευνητικών κατευθύνσεων της επιστήμης της Πληροφορικής και των νέων Τεχνολογιών και ειδικότερα αυτών που αφορούν σε τομείς υψηλής προτεραιότητας για τη χώρα μας.
+Το «Προηγμένα Συστήματα Πληροφορικής - Ανάπτυξη Λογισμικού και Τεχνητής Νοημοσύνης» (Advanced Informatics and Computing Systems - Software Development and Αrtificial Intelligence) θεραπεύει αμιγώς τα πλέον προηγμένα ζητήματα επιστήμης στο χώρο της Πληροφορικής και των νέων τεχνολογιών. Το περιεχόμενο και η φυσιογνωμία του προγράμματος έχει διαμορφωθεί έτσι ώστε να ανταποκρίνεται με επιτυχία στις ιδιαίτερες επιστημονικές ανάγκες που προκαλεί η ταχύτατη εξέλιξη της Πληροφορικής και νέων Τεχνολογιών σε ευρωπαϊκό και διεθνές επίπεδο.
+Τόσο τα υποχρεωτικά μαθήματα, όσο και τα μαθήματα επιλογής, έχουν επιλεγεί ώστε να προσφέρουν στο μεταπτυχιακό φοιτητή την ειδίκευση που απαιτούν οι πλέον πρόσφατες τεχνολογικές εξελίξεις στον τομέα της Πληροφορικής και νέων τεχνολογιών, σε συνδυασμό με τα ιδιαίτερα χαρακτηριστικά και τις ανάγκες της σύγχρονης Ελληνικής και Ευρωπαϊκής Οικονομίας.
+
+Το Πρόγραμμα Μεταπτυχιακών Σπουδών «Ψηφιακός Πολιτισμός, Έξυπνες Πόλεις, IoT και Προηγμένες Ψηφιακές Τεχνολογίες» («Digital Culture, Smart Cities, IoT and Advanced Digital Technologies») έχει ως αντικείμενο την συντονισμένη ανάπτυξη και οργάνωση των ερευνητικών κατευθύνσεων της επιστήμης των νέων Τεχνολογιών και ειδικότερα αυτών που αφορούν σε τομείς υψηλής προτεραιότητας για τη χώρα μας, όπως είναι ο Ψηφιακός Πολιτισμός, οι Έξυπνες Πόλεις, το Διαδίκτυο των Πραγμάτων (IoT), καθώς και οι Σύγχρονες Επικοινωνίες και Ψηφιακές Τεχνολογίες.
+Το ΠΜΣ απονέμει Δίπλωμα Μεταπτυχιακών Σπουδών (Δ.Μ.Σ.) με τίτλο «Ψηφιακός Πολιτισμός, Έξυπνες Πόλεις, IoT και Προηγμένες Ψηφιακές Τεχνολογίες» με τις εξής τρεις (3) ειδικεύσεις (tracks) : «Ψηφιακός Πολιτισμός», «Έξυπνες Πόλεις και Προηγμένες Ψηφιακές Τεχνολογίες», «Διαδίκτυο των Πραγμάτων (IoT) και Προηγμένες Ψηφιακές Τεχνολογίες». Το Π.Μ.Σ. απευθύνεται σε αποφοίτους από διαφορετικά επιστημονικά πεδία.
+
+Το Πρόγραμμα Μεταπτυχιακών Σπουδών (ΠΜΣ) «Κατανεμημένα Συστήματα, Ασφάλεια και Αναδυόμενες Τεχνολογίες Πληροφορίας» (Distributed Systems, Security and Emerging Information Technologies), έχει ως αντικείμενο την εκπαίδευση νέων επιστημόνων στις επιστημονικές περιοχές της Ασφάλειας Δικτύων και Συστημάτων, των Κατανεμημένων και των Υπολογιστικών Συστημάτων, καθώς και της Επιχειρησιακής Αναλυτικής και των Αναδυόμενων Τεχνολογιών και Υπηρεσιών Πληροφορίας.
+Σκοπός του ΠΜΣ είναι η επιστημονική και τεχνολογική κατάρτιση αποφοίτων τμημάτων ΑΕΙ Πληροφορικής, Τηλεπικοινωνιών και συναφών επιστημών, σε πεδία της Πληροφορικής που επιδεικνύουν ραγδαία επιστημονική ανάπτυξη, υψηλή δυναμική και διαρκώς αυξανόμενη ζήτηση στην Ευρωπαϊκή και παγκόσμια αγορά εργασίας όπως είναι τα αντικείμενα που αναφέρθηκαν παραπάνω, με σκοπό την εκπαίδευση καταρτισμένων και ικανών επιστημόνων και ερευνητών που θα προωθήσουν την ανάπτυξη της χώρας και των Ελληνικών επιχειρήσεων στο πλαίσιο της Κοινωνίας της Πληροφορίας.
+
+Το Πρόγραμμα Μεταπτυχιακών Σπουδών στην «Πληροφορική» (Informatics) έχει ως αντικείμενο την άρτια και υψηλού επιπέδου εκπαίδευση αποφοίτων τμημάτων ΑΕΙ και ΑΤΕΙ διαφόρων επιστημονικών ειδικοτήτων στις αρχές και μεθοδολογίες εφαρμογής της σύγχρονης επιστήμης της Πληροφορικής.
+Το Πρόγραμμα Μεταπτυχιακών Σπουδών στην «Πληροφορική» θεραπεύει σύγχρονα ζητήματα τεχνολογίας και εφαρμογών της επιστήμης της Πληροφορικής σε άλλες σύγχρονες επιστήμες. Το περιεχόμενο και η φυσιογνωμία του προγράμματος έχει διαμορφωθεί έτσι ώστε να ανταποκρίνεται με επιτυχία στις ιδιαίτερες επιστημονικές ανάγκες που προκαλεί η ταχύτατη εξέλιξη της Πληροφορικής και των εφαρμογών της σε ευρωπαϊκό και διεθνές επίπεδο.</value>
+  </data>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>
+Το Πρόγραμμα Μεταπτυχιακών Σπουδών στις «Προηγμένα Συστήματα Πληροφορικής - Ανάπτυξη Λογισμικού και Τεχνητής Νοημοσύνης» (Advanced Informatics and Computing Systems - Software Development and Αrtificial Intelligence) έχει ως αντικείμενο τη συντονισμένη ανάπτυξη και οργάνωση των ερευνητικών κατευθύνσεων της επιστήμης της Πληροφορικής και των νέων Τεχνολογιών και ειδικότερα αυτών που αφορούν σε τομείς υψηλής προτεραιότητας για τη χώρα μας.
+
+Το «Προηγμένα Συστήματα Πληροφορικής - Ανάπτυξη Λογισμικού και Τεχνητής Νοημοσύνης» (Advanced Informatics and Computing Systems - Software Development and Αrtificial Intelligence) θεραπεύει αμιγώς τα πλέον προηγμένα ζητήματα επιστήμης στο χώρο της Πληροφορικής και των νέων τεχνολογιών. Το περιεχόμενο και η φυσιογνωμία του προγράμματος έχει διαμορφωθεί έτσι ώστε να ανταποκρίνεται με επιτυχία στις ιδιαίτερες επιστημονικές ανάγκες που προκαλεί η ταχύτατη εξέλιξη της Πληροφορικής και νέων Τεχνολογιών σε ευρωπαϊκό και διεθνές επίπεδο.
+
+Τόσο τα υποχρεωτικά μαθήματα, όσο και τα μαθήματα επιλογής, έχουν επιλεγεί ώστε να προσφέρουν στο μεταπτυχιακό φοιτητή την ειδίκευση που απαιτούν οι πλέον πρόσφατες τεχνολογικές εξελίξεις στον τομέα της Πληροφορικής και νέων τεχνολογιών, σε συνδυασμό με τα ιδιαίτερα χαρακτηριστικά και τις ανάγκες της σύγχρονης Ελληνικής και Ευρωπαϊκής Οικονομίας.
+
+Οι σκοποί του Προγράμματος Μεταπτυχιακών Σπουδών στο «Προηγμένα Συστήματα Πληροφορικής - Ανάπτυξη Λογισμικού και Τεχνητής Νοημοσύνης» (Advanced Informatics and Computing Systems - Software Development and Αrtificial Intelligence) του Τμήματος Πληροφορικής του Πανεπιστημίου Πειραιώς, είναι οι εξής:
+·  Η προαγωγή της επιστήμης και της έρευνας στο αντικείμενο του προγράμματος σπουδών.
+·  Η προετοιμασία και εκπαίδευση εξειδικευμένων και ικανών μεταπτυχιακών επιστημόνων ερευνητών και στελεχών που θα προωθήσουν την ανάπτυξη της χώρας και των Ελληνικών επιχειρήσεων στην Κοινωνία της Πληροφορίας και των Νέων Τεχνολογιών, του Πολιτισμού και της Οικονομίας.
+·  Η ανάπτυξη της Θεωρητικής και Εφαρμοσμένης Πληροφορικής, των Τεχνολογιών Πληροφορικής και Επικοινωνιών.
+·  Η στενή συνεργασία μεταξύ της Ακαδημαϊκής Κοινότητας και των Επιχειρήσεων για την αποδοχή, χρήση και ανάπτυξη των πλέον προηγμένων συστημάτων Πληροφορικής και Υπηρεσιών.
+·  Η συνεργασία με Ελληνικούς, Ευρωπαϊκούς και Διεθνείς Επιστημονικούς Οργανισμούς, που ασχολούνται με θέματα Πληροφορικής, Νέων Τεχνολογιών, με τομείς του Πολιτισμού, της Οικονομίας κ.α.
+Read 66670 times</value>
+  </data>
+  <data name="richTextBox2.Text" xml:space="preserve">
+    <value>
+Το Πρόγραμμα Μεταπτυχιακών Σπουδών «Ψηφιακός Πολιτισμός, Έξυπνες Πόλεις, IoT και Προηγμένες Ψηφιακές Τεχνολογίες» («Digital Culture, Smart Cities, IoT and Advanced Digital Technologies») έχει ως αντικείμενο την συντονισμένη ανάπτυξη και οργάνωση των ερευνητικών κατευθύνσεων της επιστήμης των νέων Τεχνολογιών και ειδικότερα αυτών που αφορούν σε τομείς υψηλής προτεραιότητας για τη χώρα μας, όπως είναι ο Ψηφιακός Πολιτισμός, οι Έξυπνες Πόλεις, το Διαδίκτυο των Πραγμάτων (IoT), καθώς και οι Σύγχρονες Επικοινωνίες και Ψηφιακές Τεχνολογίες.
+
+Το ΠΜΣ απονέμει Δίπλωμα Μεταπτυχιακών Σπουδών (Δ.Μ.Σ.) με τίτλο «Ψηφιακός Πολιτισμός, Έξυπνες Πόλεις, IoT και Προηγμένες Ψηφιακές Τεχνολογίες» με τις εξής τρεις (3) ειδικεύσεις (tracks) : «Ψηφιακός Πολιτισμός», «Έξυπνες Πόλεις και Προηγμένες Ψηφιακές Τεχνολογίες», «Διαδίκτυο των Πραγμάτων (IoT) και Προηγμένες Ψηφιακές Τεχνολογίες». Το Π.Μ.Σ. απευθύνεται σε αποφοίτους από διαφορετικά επιστημονικά πεδία.
+
+Ειδίκευση / Κατεύθυνση «Ψηφιακός Πολιτισμός» - «Digital Culture»
+
+Η Ειδίκευση / Κατεύθυνση «Ψηφιακός Πολιτισμός» - «Digital Culture» στοχεύει στην εκπαίδευση και κατάρτιση επιστημόνων διαφόρων ειδικοτήτων από θεωρητικά, θετικά και τεχνολογικά πεδία γνώσεων για την ανάδειξη, προστασία, προβολή και διαχείριση του πολιτιστικού αποθέματος με τη συμβολή προηγμένων ψηφιακών τεχνολογιών. Eφοδιάζει τους φοιτητές με τις κατάλληλες γνώσεις των τελευταίων τάσεων που επικρατούν παγκοσμίως στο αναδυόμενο διεπιστημονικό πεδίο του ψηφιακού πολιτισμού και διασφαλίζει τη χάραξη και τη διαμόρφωση νέας ψηφιακής στρατηγικής στον πολιτισμό. Προωθεί τη διάσωση και ανάδειξη της πολιτισμικής κληρονομιάς στη χώρας μας αναδεικνύοντας νέους τρόπους αποτελεσματικής διοίκησης των πολιτισμικών οργανισμών στο ευρύτερο πλαίσιο της κοινωνικής και εκπαιδευτικής πολιτικής. Ενσωματώνει μοντέρνα γνωστικά πεδία μεταξύ των οποίων είναι η μοντελοποίηση με 3Δ γραφικά, η εφαρμογή τεχνολογιών μικτής πραγματικότητας (Virtual Reality, Augmented Reality, Virtual Worlds), οι κινητές επικοινωνίες, οι τεχνολογίες διαδικτύου και μέσων κοινωνικής δικτύωσης, η επεξεργασία σημάτων και πολυμέσων, με τελικό σκοπό τη βέλτιστη ψηφιακή διαχείριση, καταγραφή και επιμέλεια της πολιτισμικής κληρονομιάς αλλά και των πτυχών του σύγχρονου πολιτισμού. Καθώς η χώρα μας διαθέτει πλούσιο πολιτιστικό απόθεμα σε μια ήπειρο (Ευρώπη) που αποτελεί και η ίδια πολιτιστική υπερδύναμη, η ενίσχυση της διεπιστημονικότητας θα συμβάλλει στην ενίσχυση της Δημιουργικής Βιομηχανίας, στην προστασία της πολιτιστικής μας κληρονομιάς και την ώθηση της σύγχρονης δημιουργίας.
+
+Ειδίκευση / Κατεύθυνση «Έξυπνες Πόλεις και Προηγμένες Ψηφιακές Τεχνολογίες» - «Smart Cities and Advanced Digital Technologies»
+
+Η Ειδίκευση / Κατεύθυνση «Έξυπνες Πόλεις και Προηγμένες Ψηφιακές Τεχνολογίες» στοχεύει να εκπαιδεύσει και να καταρτίσει επιστήμονες από διαφορετικά πεδία ώστε να μπορούν να εργαστούν στο νέο ψηφιακό αστικό τοπίο, καθώς και να σχεδιάσουν και να υποστηρίξουν νέες υπηρεσίες στις διαρκώς μεταβαλλόμενες «Έξυπνες Πόλεις», που συνδέονται με το σύγχρονο οικοσύστημα, υποδομές, λειτουργίες και υπηρεσίες, όπως οι έξυπνες μεταφορές, επικοινωνίες, έξυπνα σπίτια, ηλεκτρονική διακυβέρνηση, smart grids, έξυπνη πολιτιστική κληρονομιά, έξυπνη υγεία, έξυπνη γεωργία, έξυπνη ψηφιακή υποδομή, έξυπνη διαχείριση ενέργειας. Στοχεύει επίσης στην παροχή τεχνογνωσίας για τη διαχείριση πολύπλοκων αστικών ζητημάτων, να παράσχει τα κατάλληλα εφόδια για την ανάπτυξη καινοτόμων συστημάτων διακυβέρνησης μιας ασφαλούς και βιώσιμης πόλης, στον σχεδιασμό και υποστήριξη λειτουργικών και αποτελεσματικών μεθόδων εξοικονόμησης πόρων, καθώς και στην έξυπνη διαχείριση καταστροφών.
+
+Ειδίκευση / Κατεύθυνση «Διαδίκτυο των Πραγμάτων (IoT) και Προηγμένες Ψηφιακές Τεχνολογίες» - «Internet of Things (IoT) and Advanced Digital Technologies»
+
+Η Ειδίκευση / Κατεύθυνση «Διαδίκτυο των Πραγμάτων (IoT) και Προηγμένες Ψηφιακές Τεχνολογίες» στοχεύει να εκπαιδεύσει και να καταρτίσει επιστήμονες από διαφορετικά πεδία, αλλά κυρίως από τους τομείς των θετικών και τεχνολογικών επιστημών, να παρέχει τις κατάλληλες γνώσεις για τη σχεδίαση, διαχείριση και υποστήριξη νέων υπηρεσιών στις ΙοΤ πλατφόρμες, τη διαχείριση πολύπλοκων έργων, να παράσχει τα κατάλληλα εφόδια για το σχεδιασμό και ανάπτυξη κατάλληλων και καινοτόμων συστημάτων και υπηρεσιών, την ανάλυση μεγάλων δεδομένων, να παρέχει την τεχνογνωσία στο σχεδιασμό των αλληλεξαρτώμενων ΙοΤ συστημάτων που συνδέονται με τις λειτουργίες της ψηφιακής πόλης, των έξυπνων σπιτιών, τις μεταφορές, την κατασκευή, την ενέργεια, τα smart grids, την έξυπνη υγεία, την έξυπνη γεωργία, την έξυπνη ασφάλεια, την παροχή υπηρεσιών, τις επικοινωνίες, τις έξυπνες ψηφιακές υποδομές, την εκπαίδευση, την έξυπνη ασφάλεια, την ανάπτυξη συστημάτων διακυβέρνησης, την ασφάλεια των δεδομένων, την προστασία της ιδιωτικότητας - ακεραιότητας των προσωπικών δεδομένων, την αντιμετώπιση διαδικτυακών εισβολών, την προστασία των συσκευών από επιθέσεις, την διαλειτουργικότητα των συστημάτων και των συσκευών.
+
+Οι απόφοιτοι του Μεταπτυχιακού Προγράμματος μπορούν να εργαστούν στη δημόσια διοίκηση, Δήμους, Περιφέρειες, τεχνολογικά και ερευνητικά κέντρα, σε μια σειρά εμπλεκομένων φορέων του Πολιτισμού και Τουρισμού, σε τμήματα R&amp;D σε μικρές και μεσαίες επιχειρήσεις, καθώς και σε μεγάλες επιχειρήσεις, σε εταιρίες που ασχολούνται με την καινοτομία τον Πολιτισμό και τον Τουρισμό και την υλοποίηση τεχνολογικών λύσεων. Οι γνώσεις που θα αποκομίσουν θα τους δώσουν τη δυνατότητα να ασκήσουν επαγγελματική συμβουλευτική και επιχειρηματικότητα σε θέματα έξυπνων πόλεων, ψηφιακού πολιτισμού, σύγχρονων ψηφιακών υπηρεσιών, τηλεπικοινωνιών και δικτύων, συμπεριλαμβανομένων των επιχειρήσεων, των διαχειριστών δικτύων ενέργειας και τηλεπικοινωνιών, των ρυθμιστικών αρχών, ιδιωτικών και δημόσιων φορέων. Οι απόφοιτοι έχουν επίσης τη δυνατότητα να συνεχίσουν τη σταδιοδρομία τους σε υφιστάμενους οργανισμούς, να αποκτήσουν τα κατάλληλα εφόδια και γνώσεις απαραίτητες για τομείς όπως η Δημόσια διοίκηση και Υπουργεία, Δήμους, Περιφέρειες, Τεχνολογικά και ερευνητικά κέντρα, καθώς και να συνεχίσουν τις σπουδές τους σε Διδακτορικό Επίπεδο, καθώς και να ξεκινήσουν τις δικές τους καινοτόμες επιχειρήσεις.
+Χρονική Διάρκεια
+Η χρονική διάρκεια σπουδών για την απονομή του Διπλώματος Μεταπτυχιακών Σπουδών ορίζεται σε τρία (3) εξάμηνα.
+Για την απονομή του Δ.Μ.Σ. απαιτείται η παρακολούθηση των μαθημάτων διάρκειας δύο ακαδημαϊκών εξαμήνων και η εκπόνηση μεταπτυχιακής διατριβής. Κατά τη διάρκεια των δύο πρώτων εξαμήνων και για όλες τις κατευθύνσεις απαιτείται η επιτυχής παρακολούθηση των πέντε υποχρεωτικών μαθημάτων της επιλεγείσης ειδίκευσης.
+Κάθε μάθημα διδάσκεται σε δέκα τρίωρες διαλέξεις και έχει 6 Πιστωτικές Μονάδες - ECTS. Είναι υποχρεωτική η παρακολούθηση τουλάχιστον επτά από αυτές τις διαλέξεις.
+Με την επιτυχή παρακολούθηση και ολοκλήρωση του ΠΜΣ, χορηγείται Δ.Μ.Σ. 90 πιστωτικών μονάδων (ECTS). Το τρίτο εξάμηνο διατίθεται για τη εκπόνηση μεταπτυχιακής διατριβής.
+Μεταπτυχιακοί Τίτλοι
+Το ΠΜΣ απονέμει το Δίπλωμα Μεταπτυχιακών Σπουδών (Δ.Μ.Σ.) με τίτλο «Ψηφιακός Πολιτισμός, Έξυπνες Πόλεις, IoT και Προηγμένες Ψηφιακές Τεχνολογίες» («Digital Culture, Smart Cities, IoT and Advanced Digital Technologies») με τις εξής ειδικεύσεις (tracks) :
+●    Ψηφιακός Πολιτισμός / Digital Culture
+●    Έξυπνες Πόλεις και Προηγμένες Ψηφιακές Τεχνολογίες / Smart Cities and Advanced Digital Technologies.
+●    Διαδίκτυο των Πραγμάτων (IoT) και Προηγμένες Ψηφιακές Τεχνολογίες / Internet of Things (IoT) and Advanced Digital Technologies.
+
+Οι ενδιαφερόμενοι μπορούν να υποβάλουν αιτήσεις έως και 24 Οκτωβρίου 2022 στη Γραμματεία του Προγράμματος Μεταπτυχιακών Σπουδών (Π.Μ.Σ.) του Πανεπιστημίου Πειραιώς. Περισσότερες Πληροφορίες μπορείτε να βρείτε: https://www.facebook.com/dcsciot, http://www.cs.unipi.gr/dcsciot, Email: dcsciot@unipi.gr
+Σε ποιους απευθύνεται το Π.Μ.Σ.
+Στο Π.Μ.Σ. γίνονται δεκτοί κάτοχοι τίτλου πρώτου κύκλου σπουδών Α.Ε.Ι. της ημεδαπής ή ομοταγών ιδρυμάτων της αλλοδαπής σύμφωνα με τις διατάξεις του άρθρου 34 του ν.4485/2017. Περισσότερες πληροφορίες μπορείτε να αναζητήσετε σε κάθε ειδίκευση/κατεύθυνση του Π.Μ.Σ. http://www.cs.unipi.gr/dcsciot
+
+Ενδεικτικά και ανάλογα με την ειδίκευση: Τμημάτων/Σχολών Τεχνολογιών Πληροφορικής και Επικοινωνιών, Μηχανικών, Καλών Τεχνών, Αρχιτεκτόνων Μηχανικών, Πολεοδόμων, Φιλοσοφικής Σχολής, Ανθρωπιστικών Επιστημών, Θετικών Επιστημών ή Τεχνολογικών Επιστημών, Γεωπονικών Επιστημών, Παιδαγωγικών, Θεολογικής, Οικονομικών και Κοινωνικών Επιστημών, Οικονομικών - Επιχειρηματικών και Διεθνών Σπουδών, Ναυτιλίας και Βιομηχανίας, Κοινωνικών Επιστημών, Μηχανικών Πολυτεχνείων ή Πολυτεχνικών Σχολών, Μηχανικών Περιβάλλοντος, Νομικών Επιστημών, Τμημάτων Πληροφορικής, Τεχνών Ήχου &amp; Εικόνας, Πολιτισμικής Τεχνολογίας &amp; Επικοινωνίας, Τμημάτων Τεχνολογιών Πληροφορικής και Επικοινωνιών, Διαχείρισης Πολιτισμικού Περιβάλλοντος και Νέων Τεχνολογιών, Επικοινωνίας Μέσων και Πολιτισμού, Ψηφιακών Μέσων, Επικοινωνίας και Πολιτισμικής Διαχείρισης, Συντηρητών Αρχαιοτήτων &amp; Έργων Τέχνης, Ιστορικών και Αρχαιολόγων, Γραφιστικής, Πληροφορικής και Μέσων Μαζικής Ενημέρωσης, Διοίκησης - Οικονομίας και Επικοινωνίας, Πολιτιστικών και Τουριστικών Μονάδων, Aρχειονομίας, Bιβλιοθηκονομίας και Μουσειολογίας, Φωτογραφίας &amp; Οπτικοακουστικών Τεχνών, Ελληνικού και Ευρωπαϊκού Πολιτισμού, Μηχανικών Πληροφορικής Τ.Ε., Φυσικών, Μαθηματικών, Χημικών, Χωροταξίας Πολεοδομίας και Περιφερειακής Ανάπτυξης, Πολιτικών Μηχανικών, Μηχανικών Παραγωγής και Διοίκησης, Μηχανικών Ορυκτών Πόρων Ηλεκτρολόγων Μηχανικών και Μηχανικών Υπολογιστών, Παιδαγωγικών Τμημάτων, Ειδικής Αγωγής, Ιστορίας - Αρχαιολογίας και Κοινωνικής Ανθρωπολογίας, Υδάτινου Περιβάλλοντος, Πολιτικής Επιστήμης και Δημόσιας Διοίκησης, Επικοινωνίας και Μέσων Μαζικής Ενημέρωσης, Επικοινωνίας Μέσων και Πολιτισμού, Θεατρικών Σπουδών, Φιλοσοφίας, Παιδαγωγικής και Ψυχολογίας, Γεωλογίας και Γεωπεριβάλλοντος, Ιστορίας και Φιλοσοφίας της Επιστήμης, Δημόσιας Διοίκησης, Οικονομικής και Περιφερειακής Ανάπτυξης, Κοινωνικών και Πολιτικών Επιστημών, Κοινωνικής Ανθρωπολογίας, Κοινωνιολογίας, Ψυχολογίας ή/και άλλων συναφών με τις κατευθύνσεις ειδικοτήτων), καθώς και πτυχιούχοι Πανεπιστημίων, Πολυτεχνείων ή Πολυτεχνικών Σχολών και ΤΕΙ ή Α.Σ.ΠΑΙ.Τ.Ε. της ημεδαπής, και ομοταγών Ιδρυμάτων ΑΕΙ της αλλοδαπής.
+Πρόγραμμα Μαθημάτων
+Η έναρξη των μαθημάτων θα πραγματοποιηθεί εντός Οκτωβρίου 2021. Οι ώρες διδασκαλίας είναι από 18:00 έως 21:00, τέσσερις ημέρες την εβδομάδα.
+Αιτήσεις
+Οι ενδιαφερόμενοι μπορούν να υποβάλουν αιτήσεις έως και 24 Οκτωβρίου 2022 στη Γραμματεία του Προγράμματος Μεταπτυχιακών Σπουδών (Π.Μ.Σ.) του Πανεπιστημίου Πειραιώς. Περισσότερες Πληροφορίες μπορείτε να βρείτε: https://www.facebook.com/dcsciot, http://www.cs.unipi.gr/dcsciot, Email: dcsciot@unipi.gr
+
+Περισσότερες Πληροφορίες μπορείτε να βρείτε: https://www.facebook.com/dcsciot, http://www.cs.unipi.gr/dcsciot, Email: dcsciot@unipi.gr
+Στοιχεία Επικοινωνίας
+Γραμματεία Π.Μ.Σ.
+«Ψηφιακός Πολιτισμός, Έξυπνες Πόλεις, IoT και Προηγμένες Ψηφιακές Τεχνολογίες»
+Τμήμα Πληροφορικής
+Πανεπιστήμιο Πειραιώς
+Καραολή και Δημητρίου 80,
+Πειραιάς 18534
+5ος όροφος Γραφείο 503
+Τηλ.: 210 – 4142105, 210 - 4142263
+Φαξ: 210- 414 2264
+http://www.cs.unipi.gr/dcsciot</value>
+  </data>
+  <data name="richTextBox3.Text" xml:space="preserve">
+    <value>
+Το Πρόγραμμα Μεταπτυχιακών Σπουδών (ΠΜΣ) «Κυβερνοασφάλεια και Επιστήμη Δεδομένων» έχει ως αντικείμενο την εκπαίδευση νέων επιστημόνων στις επιστημονικές περιοχές της Ασφάλειας Εφαρμογών, Συστημάτων και Δικτύων, της Επιχειρησιακής Αναλυτικής και Αναλυτικής Δεδομένων καθώς και στις νέες επιστημονικές περιοχές που δημιουργούνται από τη σύγκλιση των παραπάνω περιοχών, όπως είναι η ασφάλεια και η ιδιωτικότητα μεγάλων δεδομένων και η εφαρμογή της επιστήμης δεδομένων στην ανάπτυξη προηγμένων τεχνολογιών ασφάλειας. Τα τέλη φοίτησης ανέρχονται στο ποσό των 4.500 Ευρώ.
+
+Σκοπός του ΠΜΣ είναι η επιστημονική και τεχνολογική κατάρτιση σε πεδία της Πληροφορικής που επιδεικνύουν ραγδαία επιστημονική ανάπτυξη, υψηλή δυναμική και διαρκώς αυξανόμενη ζήτηση στην Ευρωπαϊκή και την παγκόσμια αγορά εργασίας όπως είναι τα αντικείμενα που αναφέρθηκαν παραπάνω, με σκοπό την εκπαίδευση καταρτισμένων και ικανών επιστημόνων και ερευνητών που θα προωθήσουν την ανάπτυξη της χώρας και των Ελληνικών επιχειρήσεων στο πλαίσιο της Κοινωνίας της Πληροφορίας.
+
+Το ΠΜΣ απονέμει Δίπλωμα Μεταπτυχιακών Σπουδών (ΔΜΣ) σε «Κυβερνοασφάλεια και Επιστήμη Δεδομένων» (Cybersecurity and Data Science) με τις εξής ειδικεύσεις:
+Ασφάλεια Πληροφοριακών και Επικοινωνιακών Συστημάτων - Information and Communication Systems Security.
+Ασφάλεια και Αξιοπιστία Υποδομών και Συστημάτων - Infrastructure and Systems Security and Reliability.
+Επιχειρηματική Αναλυτική και Αναλυτική Δεδομένων - Business and Data Analytics.
+
+Το πρόγραμμα σπουδών του ΠΜΣ περιλαμβάνει μαθήματα τα οποία προσφέρουν μία συνδυαστική προσέγγιση των ερευνητικών πεδίων που καλύπτει το ΠΜΣ, δίνοντας παράλληλα τη δυνατότητα σε βάθος εξειδίκευσης σε ένα ερευνητικό πεδίο.
+
+Σε καθένα από τα δύο πρώτα εξάμηνα, οι φοιτητές πλήρους φοίτησης υποχρεούνται να παρακολουθήσουν επιτυχώς μαθήματα 30 πιστωτικών μονάδων ανά εξάμηνο. Οι φοιτητές μερικής φοίτησης υποχρεούνται να παρακολουθήσουν επιτυχώς μαθήματα 15 πιστωτικών μονάδων και άνω ανά εξάμηνο. Το τρίτο εξάμηνο είναι αφιερωμένο στην εκπόνηση της Μεταπτυχιακής Διπλωματικής Εργασίας (ΜΔΕ). H ΜΔΕ μπορεί να εκπονείται σε συνεργασία με οργανισμούς και εταιρείες του δημοσίου και ιδιωτικού τομέα. Το σύνολο των πιστωτικών μονάδων για την απόκτηση του ΔΜΣ ανέρχεται σε 90 πιστωτικές μονάδες.
+
+Η γλώσσα των μαθημάτων και της μεταπτυχιακής διατριβής είναι η Ελληνική, με δυνατότητα αλλαγής στην Αγγλική μετά από απόφαση των αρμοδίων οργάνων. Η διδασκαλία των μαθημάτων γίνεται δια ζώσης. Επιπλέον, δίνεται η δυνατότητα πραγματοποίησης μέρους της διδασκαλίας εξ αποστάσεως σε ποσοστό που ορίζει ο νόμος.
+
+Τα μαθήματα, η κατανομή τους ανά εξάμηνο και ανά ειδίκευση καθώς και οι πιστωτικές μονάδες ECTS (συντομογραφία ΠΜ) παρουσιάζονται ενδεικτικά στον ακόλουθο πίνακα. Τα υποχρεωτικά (Υ) μαθήματα κάθε ειδίκευσης, δύναται να είναι μαθήματα επιλογής στις άλλες ειδικεύσεις. Τα υπόλοιπα μαθήματα τα οποία προσφέρονται αποκλειστικά ως μαθήματα επιλογής και δεν είναι υποχρεωτικά σε κάποια ειδίκευση, θα προσαρμόζεται δυναμικά, με βάση τον αριθμό των ενεργών φοιτητών ανά κύκλο σπουδών και τις τρέχουσες επιστημονικές εξελίξεις. Η τροποποίηση του προγράμματος μαθημάτων και η ανακατανομή των μαθημάτων μεταξύ των εξαμήνων μπορεί να γίνει με αποφάσεις των αρμοδίων οργάνων και θα περιλαμβάνονται στον Κανονισμό Μεταπτυχιακών Σπουδών.
+
+Στο πρώτο εξάμηνο, οι φοιτητές των ειδικεύσεων ΑΠΕΣ και ΕΑΑΔ υποχρεούνται να παρακολουθήσουν τέσσερα (4) μαθήματα υποχρεωτικά, καθώς και ένα (1) μάθημα επιλογής 6 πιστωτικών μονάδων ή δύο (2) μαθήματα επιλογής 3 πιστωτικών μονάδων από τα υπόλοιπα προσφερόμενα μαθήματα. Στο πρώτο εξάμηνο, οι φοιτητές της ειδίκευσης ΑΑΥΣ υποχρεούνται να παρακολουθήσουν πέντε (5) μαθήματα υποχρεωτικά, καθώς και ένα (1) μάθημα επιλογής 6 πιστωτικών μονάδων ή δύο (2) μαθήματα επιλογής 3 πιστωτικών μονάδων από τα υπόλοιπα προσφερόμενα μαθήματα.
+
+Στο δεύτερο εξάμηνο, οι φοιτητές των ειδικεύσεων ΑΠΕΣ και ΕΑΑΔ υποχρεούνται να παρακολουθήσουν τέσσερα (4) μαθήματα υποχρεωτικά, καθώς και δύο (2) μάθημα επιλογής 6 πιστωτικών μονάδων ή τέσσερα (4) μαθήματα επιλογής 3 πιστωτικών μονάδων από τα υπόλοιπα προσφερόμενα μαθήματα. Στο δεύτερο εξάμηνο, οι φοιτητές της ειδίκευσης ΑΑΥΣ υποχρεούνται να παρακολουθήσουν τρία (3) μαθήματα υποχρεωτικά, καθώς και δύο (2) μάθημα επιλογής 6 πιστωτικών μονάδων ή τέσσερα (4) μαθήματα επιλογής 3 πιστωτικών μονάδων από τα υπόλοιπα προσφερόμενα μαθήματα.</value>
+  </data>
+  <data name="richTextBox4.Text" xml:space="preserve">
+    <value>
+Το Πρόγραμμα Μεταπτυχιακών Σπουδών στην «Πληροφορική» έχει ως αντικείμενο την άρτια και υψηλού επιπέδου εκπαίδευση αποφοίτων τμημάτων ΑΕΙ και ΑΤΕΙ διαφόρων επιστημονικών ειδικοτήτων στις αρχές και μεθοδολογίες εφαρμογής της σύγχρονης επιστήμης της Πληροφορικής,
+ 
+Το Πρόγραμμα Μεταπτυχιακών Σπουδών στην «Πληροφορική» θεραπεύει σύγχρονα ζητήματα τεχνολογίας και εφαρμογών της επιστήμης της Πληροφορικής σε άλλες σύγχρονες επιστήμες. Το περιεχόμενο και η φυσιογνωμία του προγράμματος έχει διαμορφωθεί έτσι ώστε να ανταποκρίνεται με επιτυχία στις ιδιαίτερες επιστημονικές ανάγκες που προκαλεί η ταχύτατη εξέλιξη της Πληροφορικής και των εφαρμογών της σε ευρωπαϊκό και διεθνές επίπεδο.
+
+
+Σκοπός
+
+Η ενδυνάμωση του διεπιστημονικού χαρακτήρα της Πληροφορικής και η σύνδεσή της με άλλες επιστήμες με στόχο τόσο την ανάπτυξη υψηλού επιπέδου γνώσεων Πληροφορικής σε επιστήμονες άλλων ειδικοτήτων, όσο και η τροφοδότηση της ίδιας της Πληροφορικής με νέα επιστημονικά πεδία βασικής έρευνας και ανάπτυξης εφαρμογών.
+ 
+
+-Η προετοιμασία και εκπαίδευση καταρτισμένων και ικανών επιστημόνων και ερευνητών που θα προωθήσουν την ανάπτυξη της χώρας.
+-Η προετοιμασία για μεταπτυχιακές σπουδές διδακτορικού επιπέδου.
+-Η ανάπτυξη και διάχυση της Εφαρμοσμένης Πληροφορικής στον Ελλαδικό χώρο.
+-Η στενή συνεργασία μεταξύ της Ακαδημαϊκής Κοινότητας και των Επιχειρήσεων για την αποδοχή, χρήση και διάδοση των συστημάτων Πληροφορικής.
+-Η συνεργασία με Ελληνικούς, Ευρωπαϊκούς και Διεθνείς Επιστημονικούς Οργανισμούς, που ασχολούνται με θέματα Πληροφορικής.
+ </value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAMAEBAAAAEAIABoBAAANgAAACAgAAABACAAKBEAAJ4EAAAwMAAAAQAgAGgmAADGFQAAKAAAABAA
+        AAAgAAAAAQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVSQAFVoq
+        A2BbKANfWyoDWlgoBoVaKQSQWygDWlonA1tbKARGORwACQAAAAAAAAAAAAAAAAAAAAAAAAAATRoAClEi
+        NNk6EZf/OxGX/0QXb/9GFWj/XisE/18sBP9fLAT/XywE/1wqBMoqKgAGAAAAAAAAAAAAAAAAAAAAAFUm
+        ADw+FIf/MQ28/zUOrP9GG2T/TBpO/18sBP9gLAT/XywE/18sBP9fLAT/WCYAQwAAAAAAAAAAAAAAAAAA
+        AABWKQA+PBKP/zENvP82Dqv/Sx1R/04bSP+kfVn/tpZ1/7CNav+vjGr/m3JM/1YoAE0AAAAAAAAAAAAA
+        AAAAAAAAVikAPjwSj/8xDbz/Mw2x/0QXef9AE37/pH1Z/7eWdv+wjWv/r4xp/5tyTP9WKABNAAAAAAAA
+        AAAAAAAAAAAAAFYpAD5cLU//jWh4/5dyav/PuKL/ZDZo/2AtBf9hLgX/bz0S/3xNJP9gLgX/VigATQAA
+        AAAAAAAAAAAAAAAAAABWKQA+eUxW//Lr5P/e0MH///7+/4NYZP9rOA3/dEMY/72egP+RaUf/dEMa/1Yo
+        AE0AAAAAAAAAAAAAAAAAAAAAVikAPl8zaf/fz7//0r+u/8m3vv9qQHX/Yi8F/249Ev+2lXT/cUAX/3RD
+        Gf9WKABNAAAAAAAAAAAAAAAAAAAAAFYpAD5FF23/Rxp//zwSk/8xDbv/NQ2r/2w6Ef9/TRv/p4Fc/4ph
+        Pf90RBz/VigATQAAAAAAAAAAAAAAAAAAAABWKQA+UB9B/z4Shv8/FYD/MQ28/zUNq/9eKwT/YC0F/4Za
+        Mf+PYzv/ekoh/1YoAE0AAAAAAAAAAAAAAAAAAAAAVikAPlAfQf9AE4D/PxWA/zENvP81Dav/XisE/18s
+        BP+BVCz/fU4l/31PJv9WKABNAAAAAAAAAAAAAAAAAAAAAFYpAD5SIDn/UyEz/0gZY/9CFnn/RBdv/18s
+        BP9fLAT/ZTML/28/GP93SCH/VigATQAAAAAAAAAAAAAAAAAAAABVKgAMVyQAMlckADJXJAAyVyQAMlck
+        ADJXJAAyVyQAMlckADJXJAAyVyQAMlUiAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAACAAAABAAAAAAQAgAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIqAAAGAAAAAAAA
+        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
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAADAA
+        AABgAAAAAQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAKgAABioOABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        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
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAHWyoDx1Uh
+        Mf8zDLT/MQ28/zENvP8xDbz/MQ28/zENvP8xDbz/MQy6/zELuf8yC7j/Mwq0/zYLqv8yDLX/Pg+E/41h
+        Ov+qh2b/o3xW/7CPbv+ujWz/sJBt/6mHZP+gelX/tpl7/7WUdf+mgV3/pYFb/6R/Wv+ohWD/cUEX/1wq
+        AtlEGgAeAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAkAAAHWyoDx1UhMf8zDLT/MQ28/zENvP8xDbz/MQ28/zENvP8zDLX/OA2i/0ISgP9OHFz/YzFE/1Yl
+        L/87EpX/Pg+E/5ZsRv/HqYn/wJ98/8Chhv/OsZX/ya2R/7+ggv+/m3f/y6+R/9O4nf/Bnnz/tZJt/8Oi
+        gf/CoX//dUUa/1wqAtlEGgAeAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAkAAAHWyoDx1UiMP82Daz/NQ+r/zkRov9DGJH/UyV7/0YXff9gL1H/k2hM/7GO
+        bv/FpIP/s4pi/4VWMP9FGXr/Pg+E/18sBf9mMwn/ZTEH/2AtA/9pNgr/ZDIH/2IvBv9qNwv/YS4E/2s3
+        DP9uPBH/YC0E/2o4C/9lMgj/XywE/1wqAtlEGgAeAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAHWyoDx1omHP9SIEj/ek5Z/5RsX/+cdFj/oXxa/3lI
+        JP+FWDf/uJp8/72hhP/GrZf/vJ6A/6Z8V/9WKm3/PxCC/14rBf9fLAT/XywE/18sBP9fLAT/XywE/18s
+        BP9mNAr/eEgb/2k3C/90RBj/YzEI/18sBP9fLAT/XywE/1wqAtlEGgAeAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAHWyoDx1smGf99TDr/hlcn/6yH
+        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
+        Tf+EWTL/XywE/1wqAtlEGgAeAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAkAAAHWyoDx14rCP9bKBT/WygV/1soFf9bKBX/WygV/1soFf9bKBX/WygV/1so
+        Ff9bKBX/WygV/1soFf9bKBX/XCkQ/18sBP9fLAT/XywE/18sBP9fLAT/XywE/18sBP9fLAT/XywE/18s
+        BP9fLAT/XywE/2k4D/9kMgr/XywE/1wqAtlEGgAeAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzAAAFVCcCg1coA6dXKAOnVygDp1coA6dXKAOnVygDp1co
+        A6dXKAOnVygDp1coA6dXKAOnVygDp1coA6dXKAOnVygDp1coA6dXKAOnVygDp1coA6dXKAOnVygDp1co
+        A6dXKAOnVygDp1coA6dXKAOnVygDp1coA6dXKAOnVygDp1MlApBAGgAUAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</value>
+  </data>
+</root>

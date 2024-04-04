@@ -1,0 +1,452 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox6.Text" xml:space="preserve">
+    <value>
+Το νέο Πρόγραμμα Σπουδών του Τμήματος Πληροφορικής του Πανεπιστημίου Πειραιώς φιλοδοξεί να εκπληρώσει στο μέγιστο δυνατό βαθμό τους εξής στόχους:
+
+Ευθυγράμμιση με τους τρέχοντες προσανατολισμούς που ορίζονται διεθνώς στον τομέα της Πληροφορικής και τις ανάγκες της αγοράς εργασίας,
+Προσδιορισμό της ιδιαίτερης ταυτότητας του Τμήματος με την καθιέρωση κατευθύνσεων που θα θεραπεύουν επαρκώς, για προπτυχιακό επίπεδο, τομείς-αιχμής της Πληροφορικής,
+Δημιουργία «φυτώριου» νέων επιστημόνων με την ενσωμάτωση σύγχρονων γνωστικών αντικειμένων και μαθημάτων σε συνδυασμό και με τα ήδη δρομολογημένα Προγράμματα Μεταπτυχιακών Σπουδών του Τμήματος.
+Για την εκπλήρωση των παραπάνω στόχων στο νέο Πρόγραμμα Σπουδών εισάγονται στα δύο τελευταία έτη σπουδών τρεις κατευθύνσεις,
+
+Τεχνολογία Λογισμικού και Ευφυή Συστήματα
+Διαδικτυακά και Υπολογιστικά Συστήματα
+Πληροφοριακά Συστήματα και Υπηρεσίες
+οι οποίες θα παρέχουν την απαραίτητη και κρίσιμη, για προπτυχιακό επίπεδο, εξειδίκευση που θα καθιστά τους φοιτητές του Τμήματος ανταγωνιστικούς στην αγορά εργασίας και έτοιμους να αντεπεξέλθουν στις σύγχρονες απαιτήσεις στον επιστημονικό στίβο της Πληροφορικής.</value>
+  </data>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>
+Τα πρώτα τέσσερα (4) εξάμηνα (1ο και 2ο έτος) είναι κοινά για όλους τους φοιτητές του Τμήματος. Στα τέσσερα (4) τελευταία εξάμηνα (3ο και 4ο έτος) καθιερώνονται τρεις κατευθύνσεις:
+
+Τεχνολογία Λογισμικού και Ευφυή Συστήματα (ΤΛΕΣ):Η ταχύτατη εξέλιξη των υπολογιστών που σηματοδοτείται από αυξημένη υπολογιστική ισχύ, αυξημένη χωρητικότητα μνήμης και εξειδικευμένων περιφερειακών συσκευών, έχει επιτρέψει την διάδοση προηγμένων και απαιτητικών προγραμματιστικών τεχνικών ακόμα και σε επίπεδο προσωπικού υπολογιστή. Οι τεχνικές αυτές θεραπεύονται από τα επιστημονικά πεδία της Τεχνολογίας Λογισμικού, των Γραφικών και της Εικονικής Πραγματικότητας, της Τεχνητής Νοημοσύνης και των Ευφυών Συστημάτων, της Αναγνώρισης Προτύπου καθώς και από τις πλέον προηγμένες τεχνικές Επικοινωνίας Ανθρώπου Υπολογιστή. Η κατεύθυνση αυτή φιλοδοξεί να προσφέρει στους προπτυχιακούς φοιτητές αφ’ ενός το απαραίτητο υπόβαθρο, αφ’ ετέρου τις ιδιαίτερες εκείνες γνώσεις ώστε να μπορούν να ανταποκριθούν αναπτυξιακά και ερευνητικά στην ευρύτερη περιοχή των μοντέρνων και προηγμένων τεχνικών ανάπτυξης λογισμικού.
+
+Διαδικτυακά και Υπολογιστικά Συστήματα (ΔΥΣ):Η σύγκλιση των τεχνολογιών πληροφορικής και τηλεπικοινωνιών, η εκρηκτική ανάπτυξη του Διαδικτύου και οι εκθετικές αλλαγές στην πολυπλοκότητα και στις ταχύτητες των συστημάτων που υποστηρίζουν τις παραπάνω τεχνολογίες, απαιτεί την απόκτηση εξειδικευμένων γνώσεων στους επιστημονικούς τομείς των διαδικτυακών ή δικτυοκεντρικών συστημάτων και των υπολογιστικών συστημάτων που είναι απαραίτητα για την εξάπλωση των τεχνολογιών αυτών. Το πρόγραμμα σπουδών στην κατεύθυνση αυτή παρέχει τη δυνατότητα στους φοιτητές να αποκτήσουν κατ' αρχήν το απαραίτητο υπόβαθρο για την κατανόηση, λειτουργία και χρήση των τεχνολογιών αυτών και ύστερα να εφοδιαστούν με τις απαραίτητες δεξιότητες για την ανάπτυξη, συντήρηση και αριστοποίηση συστημάτων που λειτουργούν σε ένα δικτυακό περιβάλλον.
+
+Πληροφοριακά Συστήματα και Υπηρεσίες (ΠΣΥ):Η ανάπτυξη, υλοποίηση και διαχείριση σύγχρονων πληροφοριακών συστημάτων απαιτεί ένα ευρύ φάσμα γνώσεων που αναφέρονται στις τεχνολογίες πληροφορικής και επικοινωνιών, και στη διοίκηση επιχειρήσεων, ώστε τα πληροφοριακά συστήματα να είναι αποδεκτά από τους χρήστες και να ενσωματώνονται επιτυχώς στη λειτουργία των επιχειρήσεων. Σκοπός της κατεύθυνσης αυτής είναι η παροχή προς τους φοιτητές του Τμήματος των αναγκαίων γνώσεων, σε θεωρητικό και πρακτικό επίπεδο, σχετικά με τις μεθοδολογίες και τεχνολογίες ανάπτυξης σύγχρονων πληροφοριακών συστημάτων, τις διαδικασίες διοίκησης έργων που αφορούν στην ανάπτυξη πληροφοριακών συστημάτων, και τις μεθόδους διοίκησης εγκατεστημένων πληροφοριακών συστημάτων. Ενδεικτικά, δίνεται ιδιαίτερη έμφαση σε θέματα μεθοδολογιών ανάλυσης και σχεδιασμού συστημάτων, σχεδίασης και ανάπτυξης αποδοτικών βάσεων δεδομένων, δικτύων υπολογιστών, ανάπτυξης πληροφοριακών συστημάτων με βάση τις επιχειρησιακές διαδικασίες, συστημάτων ροής εργασίας και ασφάλειας πληροφοριών.
+
+Συγκεκριμένα, για την απόκτηση του τίτλου σπουδών απαιτείται η φοίτηση επί οκτώ (8) εξάμηνα σπουδών και η συγκέντρωση συνολικά 240 πιστωτικών μονάδων (ECTS). Σύμφωνα με το εν ισχύ πρόγραμμα σπουδών απαιτούνται σαράντα οκτώ (48) μαθήματα για τη λήψη πτυχίου, πλέον των μαθημάτων ξένης γλώσσης (στη περίπτωση μη απαλλαγής, ως ορίζεται κατωτέρω), καθώς και του μαθήματος «ΕΠΙΣΤΗΜΟΝΙΚΗ ΣΥΓΓΡΑΦΗ ΣΤΗΝ ΕΚΠΑΙΔΕΥΣΗ» που αφορά στο σύνολο των φοιτητών (ως ορίζεται κατωτέρω). Ακολουθεί ανάλυση ανά εξάμηνο σπουδών:
+
+1ο εξάμηνο σπουδών: επιτυχής ολοκλήρωση έξι (6) υποχρεωτικών μαθημάτων.
+
+2ο εξάμηνο σπουδών: επιτυχής ολοκλήρωση έξι (6) υποχρεωτικών μαθημάτων.
+
+3ο εξάμηνο σπουδών: επιτυχής ολοκλήρωση πέντε (5) υποχρεωτικών μαθημάτων, ενός (1) εκ των προσφερόμενων μαθημάτων επιλογής και ενός (1) μαθήματος ξένης γλώσσας («ΑΓΓΛΙΚΑ ΙΙΙ» ή «ΓΑΛΛΙΚΑ ΙΙΙ»).
+Για την ξένη γλώσσα («ΑΓΓΛΙΚΑ ΙΙΙ» ή «ΓΑΛΛΙΚΑ ΙΙΙ»)σημειώνεται ότι:
+  •   Η επιτυχής ολοκλήρωση αποτελεί προϋπόθεση για την απόκτηση του πτυχίου.
+  •   Ο βαθμός δεν προσμετράται στο γενικό βαθμό πτυχίου.
+  •   Οι πιστωτικές μονάδες (ECTS)που αποκτούνται δεν προσμετρούνται στο σύνολο των 240.
+  •   Είναι δυνατή η απαλλαγή απότην εξέταση του μαθήματος, καταθέτοντας στη γραμματεία του Τμήματος τίτλο γλωσσομάθειας επιπέδου τουλάχιστον Β2 σύμφωνα με τα πρότυπα του ΑΣΕΠ.
+
+4ο εξάμηνο σπουδών: επιτυχής ολοκλήρωση πέντε (5) υποχρεωτικών μαθημάτων, ενός (1) εκ των προσφερόμενων μαθημάτων επιλογής και ενός (1)μαθήματος ξένης γλώσσας(«ΑΓΓΛΙΚΑ ΙV» ή «ΓΑΛΛΙΚΑ ΙV»).
+Για την ξένη γλώσσα («ΑΓΓΛΙΚΑ ΙV» ή «ΓΑΛΛΙΚΑ ΙV») σημειώνεται ότι:
+  •   Η επιτυχής ολοκλήρωση αποτελεί προϋπόθεση για την απόκτηση του πτυχίου.
+  •   Ο βαθμός δεν προσμετράται στο γενικό βαθμό πτυχίου.
+  •   Οιπιστωτικές μονάδες (ECTS) που αποκτούνται δεν προσμετρούνται στο σύνολο των 240.
+  •   Είναι δυνατή η απαλλαγή από την εξέταση του μαθήματος, καταθέτοντας στη γραμματεία του Τμήματος τίτλο γλωσσομάθειας επιπέδου τουλάχιστον Β2 σύμφωνα με τα πρότυπα του ΑΣΕΠ.
+
+5ο εξάμηνο σπουδών: υποχρεωτική επιλογή μιας εκ των τριών κατευθύνσεων (ΔΥΣ, ΠΣΥ, ΤΛΕΣ), εν συνεχεία επιτυχής ολοκλήρωση των δύο (2) υποχρεωτικών μαθημάτων κατεύθυνση και των τεσσάρων (4) υποχρεωτικών μαθημάτων κορμού. Σημειώνεται ότι ένα εκ των τεσσάρων Υποχρεωτικών μαθημάτων κορμού είναι η «ΕΠΙΣΤΗΜΟΝΙΚΗ ΣΥΓΓΡΑΦΗ ΣΤΗΝ ΕΚΠΑΙΔΕΥΣΗ», για το οποίο ο λαμβανόμενος βαθμός επιτυχίας δεν υπολογίζεται στο γενικό βαθμό πτυχίου, αλλά αποτελεί προϋπόθεση για την απόκτησή του και οι πιστωτικές μονάδες (ECTS) του μαθήματος δεν προσμετρώντας στο σύνολο των 240, ενός (1) εκ των προσφερόμενων μαθημάτων επιλογής ή ενός (1) μαθήματος άλλης κατεύθυνσης ως επιλογής, και ενός (1) μαθήματος ξένης γλώσσας(«ΑΓΓΛΙΚΑ V» ή «ΓΑΛΛΙΚΑ V»).
+Για την ξένη γλώσσα («ΑΓΓΛΙΚΑ V» ή «ΓΑΛΛΙΚΑ V») σημειώνεται ότι:
+  •   Η επιτυχής ολοκλήρωση αποτελεί προϋπόθεση για την απόκτηση του πτυχίου.
+  •   Ο βαθμός δεν προσμετράταιστο γενικό βαθμό πτυχίου.
+  •   Οι πιστωτικές μονάδες (ECTS) που αποκτούνται δεν προσμετρούνται στο σύνολο των 240.
+  •   Είναι δυνατή απαλλαγή από την εξέταση του μαθήματος, καταθέτοντας στη γραμματεία του Τμήματος τίτλο γλωσσομάθειας επιπέδου τουλάχιστον Β2 σύμφωνα με τα πρότυπα του ΑΣΕΠ.
+
+6ο εξάμηνο σπουδών: επιτυχής ολοκλήρωση των τριών(3) υποχρεωτικών μαθημάτων κατεύθυνσης και των δύο (2) υποχρεωτικών μαθημάτων κορμού, ενός (1) εκ των προσφερόμενων μαθημάτων επιλογής ή ενός μαθήματος άλλης κατεύθυνσης ως επιλογής, και ενός (1) μαθήματος ξένηςγλώσσας («ΑΓΓΛΙΚΑ VΙ» ή «ΓΑΛΛΙΚΑ VΙ»).
+Για την ξένη γλώσσα («ΑΓΓΛΙΚΑ VΙ» ή «ΓΑΛΛΙΚΑ VΙ») σημειώνεται ότι:
+  •   Η επιτυχής ολοκλήρωση αποτελεί προϋπόθεση για την απόκτηση του πτυχίου.
+  •   Ο βαθμός δεν προσμετράται στο γενικό βαθμό πτυχίου.
+  •   Οι πιστωτικές μονάδες (ECTS) που αποκτούνται δεν προσμετρούνταιστο σύνολο των 240.
+  •   Είναι δυνατή η απαλλαγή απότην εξέταση του μαθήματος, καταθέτοντας στη γραμματεία του Τμήματος τίτλο γλωσσομάθειας επιπέδου τουλάχιστον Β2 σύμφωνα με τα πρότυπα του ΑΣΕΠ.
+
+7ο εξάμηνο σπουδών: έναρξη εκπόνησης πτυχιακής εργασίας, επιτυχής ολοκλήρωση των τριών (3) υποχρεωτικών μαθημάτων κατεύθυνσης, δύο (2) εκ των προσφερόμενων μαθημάτων / ή και μαθημάτων άλλης κατεύθυνσης ως επιλογής.
+
+8ο εξάμηνο σπουδών: εκπόνηση πτυχιακής εργασίας, επιτυχής ολοκλήρωση τωντριών (3) υποχρεωτικών μαθημάτων κατεύθυνσης, δύο (2) εκ των προσφερόμενων μαθημάτων επιλογής / ή και μαθημάτων άλλης κατεύθυνσης ως επιλογής.</value>
+  </data>
+  <data name="axAcroPDF1.OcxState" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5BeEhvc3QrU3RhdGUBAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAIQAAAAIB
+        AAAAAQAAAAAAAAAAAAAAAAwAAAAADgAA2BMAANgTAAAL
+</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAMAEBAAAAEAIABoBAAANgAAACAgAAABACAAKBEAAJ4EAAAwMAAAAQAgAGgmAADGFQAAKAAAABAA
+        AAAgAAAAAQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVSQAFVoq
+        A2BbKANfWyoDWlgoBoVaKQSQWygDWlonA1tbKARGORwACQAAAAAAAAAAAAAAAAAAAAAAAAAATRoAClEi
+        NNk6EZf/OxGX/0QXb/9GFWj/XisE/18sBP9fLAT/XywE/1wqBMoqKgAGAAAAAAAAAAAAAAAAAAAAAFUm
+        ADw+FIf/MQ28/zUOrP9GG2T/TBpO/18sBP9gLAT/XywE/18sBP9fLAT/WCYAQwAAAAAAAAAAAAAAAAAA
+        AABWKQA+PBKP/zENvP82Dqv/Sx1R/04bSP+kfVn/tpZ1/7CNav+vjGr/m3JM/1YoAE0AAAAAAAAAAAAA
+        AAAAAAAAVikAPjwSj/8xDbz/Mw2x/0QXef9AE37/pH1Z/7eWdv+wjWv/r4xp/5tyTP9WKABNAAAAAAAA
+        AAAAAAAAAAAAAFYpAD5cLU//jWh4/5dyav/PuKL/ZDZo/2AtBf9hLgX/bz0S/3xNJP9gLgX/VigATQAA
+        AAAAAAAAAAAAAAAAAABWKQA+eUxW//Lr5P/e0MH///7+/4NYZP9rOA3/dEMY/72egP+RaUf/dEMa/1Yo
+        AE0AAAAAAAAAAAAAAAAAAAAAVikAPl8zaf/fz7//0r+u/8m3vv9qQHX/Yi8F/249Ev+2lXT/cUAX/3RD
+        Gf9WKABNAAAAAAAAAAAAAAAAAAAAAFYpAD5FF23/Rxp//zwSk/8xDbv/NQ2r/2w6Ef9/TRv/p4Fc/4ph
+        Pf90RBz/VigATQAAAAAAAAAAAAAAAAAAAABWKQA+UB9B/z4Shv8/FYD/MQ28/zUNq/9eKwT/YC0F/4Za
+        Mf+PYzv/ekoh/1YoAE0AAAAAAAAAAAAAAAAAAAAAVikAPlAfQf9AE4D/PxWA/zENvP81Dav/XisE/18s
+        BP+BVCz/fU4l/31PJv9WKABNAAAAAAAAAAAAAAAAAAAAAFYpAD5SIDn/UyEz/0gZY/9CFnn/RBdv/18s
+        BP9fLAT/ZTML/28/GP93SCH/VigATQAAAAAAAAAAAAAAAAAAAABVKgAMVyQAMlckADJXJAAyVyQAMlck
+        ADJXJAAyVyQAMlckADJXJAAyVyQAMlUiAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAACAAAABAAAAAAQAgAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIqAAAGAAAAAAAA
+        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
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAADAA
+        AABgAAAAAQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAKgAABioOABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        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
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAHWyoDx1Uh
+        Mf8zDLT/MQ28/zENvP8xDbz/MQ28/zENvP8xDbz/MQy6/zELuf8yC7j/Mwq0/zYLqv8yDLX/Pg+E/41h
+        Ov+qh2b/o3xW/7CPbv+ujWz/sJBt/6mHZP+gelX/tpl7/7WUdf+mgV3/pYFb/6R/Wv+ohWD/cUEX/1wq
+        AtlEGgAeAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAkAAAHWyoDx1UhMf8zDLT/MQ28/zENvP8xDbz/MQ28/zENvP8zDLX/OA2i/0ISgP9OHFz/YzFE/1Yl
+        L/87EpX/Pg+E/5ZsRv/HqYn/wJ98/8Chhv/OsZX/ya2R/7+ggv+/m3f/y6+R/9O4nf/Bnnz/tZJt/8Oi
+        gf/CoX//dUUa/1wqAtlEGgAeAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAkAAAHWyoDx1UiMP82Daz/NQ+r/zkRov9DGJH/UyV7/0YXff9gL1H/k2hM/7GO
+        bv/FpIP/s4pi/4VWMP9FGXr/Pg+E/18sBf9mMwn/ZTEH/2AtA/9pNgr/ZDIH/2IvBv9qNwv/YS4E/2s3
+        DP9uPBH/YC0E/2o4C/9lMgj/XywE/1wqAtlEGgAeAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAHWyoDx1omHP9SIEj/ek5Z/5RsX/+cdFj/oXxa/3lI
+        JP+FWDf/uJp8/72hhP/GrZf/vJ6A/6Z8V/9WKm3/PxCC/14rBf9fLAT/XywE/18sBP9fLAT/XywE/18s
+        BP9mNAr/eEgb/2k3C/90RBj/YzEI/18sBP9fLAT/XywE/1wqAtlEGgAeAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAHWyoDx1smGf99TDr/hlcn/6yH
+        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
+        Tf+EWTL/XywE/1wqAtlEGgAeAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAkAAAHWyoDx14rCP9bKBT/WygV/1soFf9bKBX/WygV/1soFf9bKBX/WygV/1so
+        Ff9bKBX/WygV/1soFf9bKBX/XCkQ/18sBP9fLAT/XywE/18sBP9fLAT/XywE/18sBP9fLAT/XywE/18s
+        BP9fLAT/XywE/2k4D/9kMgr/XywE/1wqAtlEGgAeAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzAAAFVCcCg1coA6dXKAOnVygDp1coA6dXKAOnVygDp1co
+        A6dXKAOnVygDp1coA6dXKAOnVygDp1coA6dXKAOnVygDp1coA6dXKAOnVygDp1coA6dXKAOnVygDp1co
+        A6dXKAOnVygDp1coA6dXKAOnVygDp1coA6dXKAOnVygDp1MlApBAGgAUAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</value>
+  </data>
+</root>

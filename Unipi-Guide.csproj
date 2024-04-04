@@ -1,0 +1,1095 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{87622E3C-6AC9-4146-A29D-A4E54505133C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Unipi_Guide</RootNamespace>
+    <AssemblyName>Unipi-Guide</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.116.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.116.0\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.116.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>packages\System.Data.SQLite.EF6.1.0.116.0\lib\net46\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.116.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>packages\System.Data.SQLite.Linq.1.0.116.0\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="About1V.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About1V.Designer.cs">
+      <DependentUpon>About1V.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AlumniAssoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlumniAssoc.Designer.cs">
+      <DependentUpon>AlumniAssoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Announcements.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Announcements.Designer.cs">
+      <DependentUpon>Announcements.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Calendar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calendar.Designer.cs">
+      <DependentUpon>Calendar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CarrerOffice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CarrerOffice.Designer.cs">
+      <DependentUpon>CarrerOffice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contact.Designer.cs">
+      <DependentUpon>Contact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CounselingCenter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CounselingCenter.Designer.cs">
+      <DependentUpon>CounselingCenter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Culturgroups.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Culturgroups.Designer.cs">
+      <DependentUpon>Culturgroups.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dbio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dbio.Designer.cs">
+      <DependentUpon>Dbio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ddes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ddes.Designer.cs">
+      <DependentUpon>Ddes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dispensary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dispensary.Designer.cs">
+      <DependentUpon>Dispensary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dnaut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dnaut.Designer.cs">
+      <DependentUpon>Dnaut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dode.Designer.cs">
+      <DependentUpon>Dode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doik.Designer.cs">
+      <DependentUpon>Doik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dplh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dplh.Designer.cs">
+      <DependentUpon>Dplh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dpsfs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dpsfs.Designer.cs">
+      <DependentUpon>Dpsfs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dsta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dsta.Designer.cs">
+      <DependentUpon>Dsta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dtour.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dtour.Designer.cs">
+      <DependentUpon>Dtour.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dxrh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dxrh.Designer.cs">
+      <DependentUpon>Dxrh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Edyteserv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edyteserv.Designer.cs">
+      <DependentUpon>Edyteserv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Email.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Email.Designer.cs">
+      <DependentUpon>Email.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Esecretar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Esecretar.Designer.cs">
+      <DependentUpon>Esecretar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Europeanprog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Europeanprog.Designer.cs">
+      <DependentUpon>Europeanprog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="e_Learning.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="e_Learning.Designer.cs">
+      <DependentUpon>e_Learning.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Foreignlang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Foreignlang.Designer.cs">
+      <DependentUpon>Foreignlang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Generalinfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Generalinfo.Designer.cs">
+      <DependentUpon>Generalinfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helpdesk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Helpdesk.Designer.cs">
+      <DependentUpon>Helpdesk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home_Students.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home_Students.Designer.cs">
+      <DependentUpon>Home_Students.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home_Visitors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home_Visitors.Designer.cs">
+      <DependentUpon>Home_Visitors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IssuanceCertif.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IssuanceCertif.Designer.cs">
+      <DependentUpon>IssuanceCertif.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Library.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Library.Designer.cs">
+      <DependentUpon>Library.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lifelonglearn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lifelonglearn.Designer.cs">
+      <DependentUpon>Lifelonglearn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Loading_page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loading_page.Designer.cs">
+      <DependentUpon>Loading_page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mgtsp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mgtsp.Designer.cs">
+      <DependentUpon>Mgtsp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mindep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mindep.Designer.cs">
+      <DependentUpon>Mindep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mmodip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mmodip.Designer.cs">
+      <DependentUpon>Mmodip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mrectauth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mrectauth.Designer.cs">
+      <DependentUpon>Mrectauth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mrectcounsdecis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mrectcounsdecis.Designer.cs">
+      <DependentUpon>Mrectcounsdecis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mrectcounsrespons.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mrectcounsrespons.Designer.cs">
+      <DependentUpon>Mrectcounsrespons.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Msenrespons.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Msenrespons.Designer.cs">
+      <DependentUpon>Msenrespons.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Munivaddr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Munivaddr.Designer.cs">
+      <DependentUpon>Munivaddr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mypassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mypassword.Designer.cs">
+      <DependentUpon>Mypassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Otheractivit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Otheractivit.Designer.cs">
+      <DependentUpon>Otheractivit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="plhform1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="plhform1.Designer.cs">
+      <DependentUpon>plhform1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="plhform10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="plhform10.Designer.cs">
+      <DependentUpon>plhform10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="plhform11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="plhform11.Designer.cs">
+      <DependentUpon>plhform11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="plhform12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="plhform12.Designer.cs">
+      <DependentUpon>plhform12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="plhform13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="plhform13.Designer.cs">
+      <DependentUpon>plhform13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="plhform14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="plhform14.Designer.cs">
+      <DependentUpon>plhform14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="plhform2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="plhform2.Designer.cs">
+      <DependentUpon>plhform2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="plhform3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="plhform3.Designer.cs">
+      <DependentUpon>plhform3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="plhform4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="plhform4.Designer.cs">
+      <DependentUpon>plhform4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="plhform5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="plhform5.Designer.cs">
+      <DependentUpon>plhform5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="plhform6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="plhform6.Designer.cs">
+      <DependentUpon>plhform6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="plhform7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="plhform7.Designer.cs">
+      <DependentUpon>plhform7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="plhform8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="plhform8.Designer.cs">
+      <DependentUpon>plhform8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="plhform9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="plhform9.Designer.cs">
+      <DependentUpon>plhform9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Postgrad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Postgrad.Designer.cs">
+      <DependentUpon>Postgrad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rafterdoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rafterdoc.Designer.cs">
+      <DependentUpon>Rafterdoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rdoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rdoc.Designer.cs">
+      <DependentUpon>Rdoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relke.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relke.Designer.cs">
+      <DependentUpon>Relke.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rlabs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rlabs.Designer.cs">
+      <DependentUpon>Rlabs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Scholarships.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Scholarships.Designer.cs">
+      <DependentUpon>Scholarships.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Software.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Software.Designer.cs">
+      <DependentUpon>Software.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudAffairs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudAffairs.Designer.cs">
+      <DependentUpon>StudAffairs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Studassociat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Studassociat.Designer.cs">
+      <DependentUpon>Studassociat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Studgroups.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Studgroups.Designer.cs">
+      <DependentUpon>Studgroups.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudWelfare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudWelfare.Designer.cs">
+      <DependentUpon>StudWelfare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Submit_comments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Submit_comments.Designer.cs">
+      <DependentUpon>Submit_comments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uaccess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Uaccess.Designer.cs">
+      <DependentUpon>Uaccess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uethics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Uethics.Designer.cs">
+      <DependentUpon>Uethics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uevents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Uevents.Designer.cs">
+      <DependentUpon>Uevents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ugdpr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ugdpr.Designer.cs">
+      <DependentUpon>Ugdpr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uhistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Uhistory.Designer.cs">
+      <DependentUpon>Uhistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Undergrad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Undergrad.Designer.cs">
+      <DependentUpon>Undergrad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uquality.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Uquality.Designer.cs">
+      <DependentUpon>Uquality.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uregister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Uregister.Designer.cs">
+      <DependentUpon>Uregister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Urules.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Urules.Designer.cs">
+      <DependentUpon>Urules.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ustrategy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ustrategy.Designer.cs">
+      <DependentUpon>Ustrategy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utour.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utour.Designer.cs">
+      <DependentUpon>Utour.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Videoconferserv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Videoconferserv.Designer.cs">
+      <DependentUpon>Videoconferserv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VPN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VPN.Designer.cs">
+      <DependentUpon>VPN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wifieduroam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wifieduroam.Designer.cs">
+      <DependentUpon>Wifieduroam.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="About1V.resx">
+      <DependentUpon>About1V.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlumniAssoc.resx">
+      <DependentUpon>AlumniAssoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Announcements.resx">
+      <DependentUpon>Announcements.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calendar.resx">
+      <DependentUpon>Calendar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CarrerOffice.resx">
+      <DependentUpon>CarrerOffice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contact.resx">
+      <DependentUpon>Contact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CounselingCenter.resx">
+      <DependentUpon>CounselingCenter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Culturgroups.resx">
+      <DependentUpon>Culturgroups.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dbio.resx">
+      <DependentUpon>Dbio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ddes.resx">
+      <DependentUpon>Ddes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dispensary.resx">
+      <DependentUpon>Dispensary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dnaut.resx">
+      <DependentUpon>Dnaut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dode.resx">
+      <DependentUpon>Dode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doik.resx">
+      <DependentUpon>Doik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dplh.resx">
+      <DependentUpon>Dplh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dpsfs.resx">
+      <DependentUpon>Dpsfs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dsta.resx">
+      <DependentUpon>Dsta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dtour.resx">
+      <DependentUpon>Dtour.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dxrh.resx">
+      <DependentUpon>Dxrh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edyteserv.resx">
+      <DependentUpon>Edyteserv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Email.resx">
+      <DependentUpon>Email.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Esecretar.resx">
+      <DependentUpon>Esecretar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Europeanprog.resx">
+      <DependentUpon>Europeanprog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="e_Learning.resx">
+      <DependentUpon>e_Learning.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Foreignlang.resx">
+      <DependentUpon>Foreignlang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Generalinfo.resx">
+      <DependentUpon>Generalinfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Helpdesk.resx">
+      <DependentUpon>Helpdesk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home_Students.resx">
+      <DependentUpon>Home_Students.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home_Visitors.resx">
+      <DependentUpon>Home_Visitors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IssuanceCertif.resx">
+      <DependentUpon>IssuanceCertif.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Library.resx">
+      <DependentUpon>Library.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lifelonglearn.resx">
+      <DependentUpon>Lifelonglearn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loading_page.resx">
+      <DependentUpon>Loading_page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mgtsp.resx">
+      <DependentUpon>Mgtsp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mindep.resx">
+      <DependentUpon>Mindep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mmodip.resx">
+      <DependentUpon>Mmodip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mrectauth.resx">
+      <DependentUpon>Mrectauth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mrectcounsdecis.resx">
+      <DependentUpon>Mrectcounsdecis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mrectcounsrespons.resx">
+      <DependentUpon>Mrectcounsrespons.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Msenrespons.resx">
+      <DependentUpon>Msenrespons.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Munivaddr.resx">
+      <DependentUpon>Munivaddr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mypassword.resx">
+      <DependentUpon>Mypassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Otheractivit.resx">
+      <DependentUpon>Otheractivit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="plhform1.resx">
+      <DependentUpon>plhform1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="plhform10.resx">
+      <DependentUpon>plhform10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="plhform11.resx">
+      <DependentUpon>plhform11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="plhform12.resx">
+      <DependentUpon>plhform12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="plhform13.resx">
+      <DependentUpon>plhform13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="plhform14.resx">
+      <DependentUpon>plhform14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="plhform2.resx">
+      <DependentUpon>plhform2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="plhform3.resx">
+      <DependentUpon>plhform3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="plhform4.resx">
+      <DependentUpon>plhform4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="plhform5.resx">
+      <DependentUpon>plhform5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="plhform6.resx">
+      <DependentUpon>plhform6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="plhform7.resx">
+      <DependentUpon>plhform7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="plhform8.resx">
+      <DependentUpon>plhform8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="plhform9.resx">
+      <DependentUpon>plhform9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Postgrad.resx">
+      <DependentUpon>Postgrad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Rafterdoc.resx">
+      <DependentUpon>Rafterdoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rdoc.resx">
+      <DependentUpon>Rdoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relke.resx">
+      <DependentUpon>Relke.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rlabs.resx">
+      <DependentUpon>Rlabs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Scholarships.resx">
+      <DependentUpon>Scholarships.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Software.resx">
+      <DependentUpon>Software.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudAffairs.resx">
+      <DependentUpon>StudAffairs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Studassociat.resx">
+      <DependentUpon>Studassociat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Studgroups.resx">
+      <DependentUpon>Studgroups.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudWelfare.resx">
+      <DependentUpon>StudWelfare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Submit_comments.resx">
+      <DependentUpon>Submit_comments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uaccess.resx">
+      <DependentUpon>Uaccess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uethics.resx">
+      <DependentUpon>Uethics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uevents.resx">
+      <DependentUpon>Uevents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ugdpr.resx">
+      <DependentUpon>Ugdpr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uhistory.resx">
+      <DependentUpon>Uhistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Undergrad.resx">
+      <DependentUpon>Undergrad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uquality.resx">
+      <DependentUpon>Uquality.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uregister.resx">
+      <DependentUpon>Uregister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Urules.resx">
+      <DependentUpon>Urules.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ustrategy.resx">
+      <DependentUpon>Ustrategy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utour.resx">
+      <DependentUpon>Utour.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Videoconferserv.resx">
+      <DependentUpon>Videoconferserv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VPN.resx">
+      <DependentUpon>VPN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wifieduroam.resx">
+      <DependentUpon>Wifieduroam.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Uhistory.cs.bak" />
+    <None Include="Uhistory.Designer.cs.bak" />
+    <None Include="Utour.cs.bak" />
+    <None Include="Utour.Designer.cs.bak" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\logopapei3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\calendar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="AxAcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\2-Σχολή Οικονομικών, Επιχειρηματικών και Διεθνών Σπουδών.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Σχολή Ναυτιλίας και Βιομηχανίας.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Σχολή Οικονομικών, Επιχειρηματικών και Διεθνών Σπουδών.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Σχολή Τεχνολογιών Πληροφορικής και Επικοινωνιών.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Σχολή Χρηματοοικονομικής και Στατιστικής.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Διοικητικές Υπηρεσίες.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\-Διοικητικές Υπηρεσίες.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\--Διοικητικές Υπηρεσίες.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\oiklogo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\odelogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\deslogo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\deslogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\tourlogo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\tourlogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\nautlogo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\nautlogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\biologo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\biologo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\xrhlogo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\xrhlogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\stalogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\psfslogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\plhlogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\plh4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\plh5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\plh6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\plh1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\plh3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\plh7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Συνεργαζόμενες εταιρίες.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Συνεργαζόμενες εταιρίες1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\υτκπ1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\υτκπ2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\υτκπ3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\υτκπ4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\υτκπ5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\υτκπ6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\υτκπ7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\υτκπ8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\υτκπ9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\2022-10-17 12_52_55-Διοικητική Δομή.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Βάση Εισαγωγής Τμήματος1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Βάση Εισαγωγής Τμήματος.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\plh9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\plh8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\plh2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\white star.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\yellow star.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\associate-degree-associatedegrees.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\diploma-college.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\72862dde78a05c6cc672e8c6ee3a5c5c.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+    <Error Condition="!Exists('packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.116.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.116.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets'))" />
+  </Target>
+  <Import Project="packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <Import Project="packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.116.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.116.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" />
+</Project>

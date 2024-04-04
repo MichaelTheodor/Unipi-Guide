@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="plh3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\plh3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="white star" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\white star.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="diploma-college" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\diploma-college.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Σχολή Ναυτιλίας και Βιομηχανίας" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Σχολή Ναυτιλίας και Βιομηχανίας.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="odelogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\odelogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plh71" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\plh7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="calendar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\calendar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plh4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\plh4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plh7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\plh7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Σχολή Τεχνολογιών Πληροφορικής και Επικοινωνιών" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Σχολή Τεχνολογιών Πληροφορικής και Επικοινωνιών.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plhlogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\plhlogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xrhlogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\xrhlogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plh11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\plh1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="υτκπ8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\υτκπ8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="υτκπ5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\υτκπ5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plh2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\plh2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="υτκπ3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\υτκπ3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Σχολή Χρηματοοικονομικής και Στατιστικής" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Σχολή Χρηματοοικονομικής και Στατιστικής.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="--Διοικητικές Υπηρεσίες" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\--Διοικητικές Υπηρεσίες.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nautlogo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\nautlogo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plh6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\plh6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plh9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\plh9.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image81" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2022-10-17 12_52_55-Διοικητική Δομή" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\2022-10-17 12_52_55-Διοικητική Δομή.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deslogo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\deslogo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="υτκπ9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\υτκπ9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="associate-degree-associatedegrees" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\associate-degree-associatedegrees.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="υτκπ6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\υτκπ6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Σχολή Οικονομικών, Επιχειρηματικών και Διεθνών Σπουδών" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Σχολή Οικονομικών, Επιχειρηματικών και Διεθνών Σπουδών.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="psfslogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\psfslogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plh1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\plh1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="biologo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\biologo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plh31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\plh3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nautlogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\nautlogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="υτκπ1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\υτκπ1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Συνεργαζόμενες εταιρίες1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Συνεργαζόμενες εταιρίες1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Συνεργαζόμενες εταιρίες" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Συνεργαζόμενες εταιρίες.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image71" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yellow star" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\yellow star.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Βάση Εισαγωγής Τμήματος" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Βάση Εισαγωγής Τμήματος.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="white star1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\white star.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xrhlogo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\xrhlogo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="-Διοικητικές Υπηρεσίες" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\-Διοικητικές Υπηρεσίες.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logopapei3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\logopapei3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="biologo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\biologo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="υτκπ7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\υτκπ7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="υτκπ4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\υτκπ4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stalogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\stalogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tourlogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\tourlogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Διοικητικές Υπηρεσίες" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Διοικητικές Υπηρεσίες.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="υτκπ2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\υτκπ2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plh41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\plh4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tourlogo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\tourlogo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plh5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\plh5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plh8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\plh8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2-Σχολή Οικονομικών, Επιχειρηματικών και Διεθνών Σπουδών" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\2-Σχολή Οικονομικών, Επιχειρηματικών και Διεθνών Σπουδών.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Βάση Εισαγωγής Τμήματος1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Βάση Εισαγωγής Τμήματος1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deslogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\deslogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="oiklogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\oiklogo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="72862dde78a05c6cc672e8c6ee3a5c5c" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\72862dde78a05c6cc672e8c6ee3a5c5c.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
